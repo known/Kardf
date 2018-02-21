@@ -5,7 +5,7 @@ namespace Kardf
 {
     public class EntityBase
     {
-        public string Oid { get; set; }
+        public string Id { get; set; }
         public string CreateBy { get; set; }
         public DateTime CreateTime { get; set; }
         public string ModifyBy { get; set; }
@@ -15,7 +15,7 @@ namespace Kardf
 
     public class EntityBase<T> : EntityBase
     {
-        public T ExtensionInfo
+        public virtual T ExtensionInfo
         {
             get { return Extension.FromJson<T>(); }
             set { Extension = value.ToJson(); }
