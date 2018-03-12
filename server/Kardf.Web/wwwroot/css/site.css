@@ -1,0 +1,16 @@
+﻿/*MINI侧栏*/
+.layui-side.ka-side-mini {
+    width: 50px;
+}
+
+    .layui-side.ka-side-mini .layui-side-scroll {
+        width: 70px;
+    }
+
+    .layui-side.ka-side-mini .layui-nav-tree {
+        width: 50px;
+    }
+
+    .layui-side.ka-side-mini .ka-nav-fold .layui-icon {
+        transform: rotateY(180deg);
+    }

@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kardf", "Kardf\Kardf.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kardf.Platform", "Kardf.Platform\Kardf.Platform.csproj", "{DA15BD55-6848-438E-8297-7C65871E5A41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kardf.WebApp", "Kardf.WebApp\Kardf.WebApp.csproj", "{956EB661-6DC0-4622-9CCC-CB3703353C70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kardf.Web", "Kardf.Web\Kardf.Web.csproj", "{956EB661-6DC0-4622-9CCC-CB3703353C70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12,6 +12,7 @@ namespace Kardf.WebApp.Controllers
     {
         public IActionResult Index()
         {
+            
             return View();
         }
 
@@ -26,6 +27,11 @@ namespace Kardf.WebApp.Controllers
         {
             ViewData["Message"] = "Your contact page.";
 
+            return View();
+        }
+
+        public IActionResult Login()
+        {
             return View();
         }
 
